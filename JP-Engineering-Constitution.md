@@ -1,47 +1,68 @@
-# JP-Engineering-Constitution
+# JP Engineering Constitution
 
-**Framework:** JP Engineering Framework
+**Framework:** JP Engineering Framework  
+**Version:** 1.0.0  
+**Release:** Foundation  
+**Status:** Stable  
+**Owner:** Jhon Harold Pizarro  
+**Project Director:** Jhon Harold Pizarro  
 
-**Version:** 1.0.0
+---
 
-**Release:** Foundation
+# Constitución de Ingeniería
 
-**Status:** Stable
+Este documento define los principios fundamentales que gobiernan el desarrollo, arquitectura, documentación y evolución del JP Engineering Framework.
 
-**Owner:** Jhon Harold Pizarro
+Estas reglas representan los criterios mínimos que deben cumplir los proyectos, experimentos y decisiones técnicas dentro del ecosistema.
 
-**Project Director:** JP Engineering Framework
+---
 
+# Principio Fundamental
 
-Engineering Principle
+## La infraestructura forma parte del software
 
-Todo proyecto del JP Engineering Framework deberá poder ejecutarse íntegramente mediante contenedores Docker, sin depender de instalaciones específicas en la máquina anfitriona, salvo las herramientas base necesarias para el desarrollo.
+Todo proyecto del JP Engineering Framework deberá poder ejecutarse íntegramente mediante contenedores Docker, sin depender de configuraciones específicas de la máquina anfitriona, salvo las herramientas base necesarias para el desarrollo.
 
-Artículo (provisional)
+La infraestructura, configuración, automatización y documentación hacen parte integral del producto de software.
 
-La infraestructura forma parte del software
+---
 
+# Artículos de Ingeniería
 
 ## Artículo 1
-Toda decisión técnica debe poder justificarse.
+Toda decisión técnica debe poder justificarse mediante argumentos técnicos, restricciones conocidas y documentación correspondiente.
+
+---
 
 ## Artículo 2
-Todo curso debe terminar en un proyecto funcional.
+Todo curso, investigación o aprendizaje tecnológico debe finalizar con un proyecto funcional que demuestre la aplicación práctica del conocimiento adquirido.
+
+---
 
 ## Artículo 3
-Todo proyecto debe poder agregarse al portafolio.
+Todo proyecto desarrollado dentro del Framework debe tener potencial para formar parte del portafolio profesional.
+
+---
 
 ## Artículo 4
-No se aceptan proyectos incompletos.
+No se aceptan proyectos abandonados sin documentación del estado actual, problemas encontrados y lecciones aprendidas.
+
+---
 
 ## Artículo 5
-Toda tecnología nueva debe resolver un problema real.
+Toda tecnología nueva incorporada debe resolver un problema real o aportar una mejora significativa al ecosistema.
 
-## Artículo 5
-Toda tecnología nueva debe resolver un problema real.
+---
+
+## Artículo 6
+Todo error importante debe generar una Lección Aprendida documentada para evitar repetir el mismo problema.
+
+---
 
 ## Artículo 7
-Todo error importante genera una Lección Aprendida.
+Toda decisión arquitectónica importante debe generar un ADR (Architecture Decision Record).
+
+---
 
 ## Artículo 8
-Toda decisión arquitectónica importante genera un ADR.
+Toda evolución significativa del Framework debe quedar registrada mediante documentación, versiones y cambios controlados.

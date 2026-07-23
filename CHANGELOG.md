@@ -10,70 +10,93 @@
 
 **Owner:** Jhon Harold Pizarro
 
-**Project Director:** JP Engineering Framework
+**Project Director:** Jhon Harold Pizarro
 
-v1.1
-Engineering Standards
-Templates
-ADR
-v1.2
-Prompt Library
-Playbooks
-v1.3
-Project Catalog
-v2.0
-Automatización
-CLI
-Scripts
-Integraciones
-IA
+---
 
+# Version History
 
-# Changelog
+## v1.0.0 - Foundation
 
-## v1.0.0
+Fecha: 2026
 
-- Initial release
+### Added
 
+- Initial release of JP Engineering Framework.
+- Base project structure.
+- Core documentation system.
+- Engineering principles.
+- Constitution documents.
+- Initial roadmap definition.
 
+---
 
+# Planned Releases
 
-Product Backlog
-Epic: Multi-Platform Expansion
+## v1.1.0 - Engineering Standards
 
-Estado: Backlog
+Estado: Planned
 
-Versión objetivo: Por definir (probablemente v2.x o superior)
+Objetivo:
 
-Objetivo
+Establecer estándares técnicos y herramientas base para la evolución del Framework.
 
-Evolucionar el JP Engineering Framework para soportar el desarrollo de diferentes plataformas bajo una misma metodología de ingeniería.
+Incluye:
 
-Dominios propuestos
-JP Engineering Framework
+- Engineering Standards.
+- Documentation templates.
+- ADR (Architecture Decision Records).
+- Development guidelines.
 
-├── Web Engineering
-│
-├── Mobile Engineering
-│
-└── Desktop Engineering
+---
 
-🌐 Web Engineering
-Laravel
-WordPress
-Symfony
-React
-Vue
-Next.js
-APIs
-Docker
-📱 Mobile Engineering
-Flutter
-Android
-iOS
-Firebase
-🖥 Desktop Engineering
-Electron
-Flutter Desktop
-.NET (si algún día decides aprenderlo)
-Tauri (si en el futuro aporta valor)
+## v1.2.0 - Knowledge System
+
+Estado: Planned
+
+Objetivo:
+
+Crear un sistema organizado de conocimiento reutilizable.
+
+Incluye:
+
+- Prompt Library.
+- Engineering Playbooks.
+- Technical guides.
+- Reusable workflows.
+
+---
+
+## v1.3.0 - Project Management System
+
+Estado: Planned
+
+Objetivo:
+
+Organizar y administrar el ciclo de vida de proyectos dentro del Framework.
+
+Incluye:
+
+- Project Catalog.
+- Project templates.
+- Project documentation structure.
+- Project lifecycle definition.
+
+---
+
+## v2.0.0 - Engineering Automation
+
+Estado: Planned
+
+Objetivo:
+
+Automatizar procesos repetitivos del ecosistema.
+
+Incluye:
+
+- Framework CLI.
+- Automation scripts.
+- External integrations.
+- AI-assisted workflows.
+
+---

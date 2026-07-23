@@ -1,16 +1,33 @@
-# LICENSE
+# JP Engineering Framework License
 
-**Framework:** JP Engineering Framework
+**Framework:** JP Engineering Framework  
+**Version:** 1.0.0  
+**Release:** Foundation  
+**Status:** Stable  
+**Owner:** Jhon Harold Pizarro  
+**Project Director:** Jhon Harold Pizarro  
 
-**Version:** 1.0.0
+---
 
-**Release:** Foundation
+## License Information
 
-**Status:** Stable
+This project is licensed under:
 
-**Owner:** Jhon Harold Pizarro
+**GNU General Public License v3.0 (GPL-3.0)**
 
-**Project Director:** JP Engineering Framework
+Copyright (C) 2026 Jhon Harold Pizarro
+
+This license allows anyone to:
+
+- Use the software.
+- Study the source code.
+- Modify the software.
+- Redistribute copies.
+- Create derivative works under the same license conditions.
+
+The complete license text is included below.
+
+---
 
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
