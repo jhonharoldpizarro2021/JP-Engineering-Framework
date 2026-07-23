@@ -1,3 +1,17 @@
+# README
+
+**Framework:** JP Engineering Framework
+
+**Version:** 1.0.0
+
+**Release:** Foundation
+
+**Status:** Stable
+
+**Owner:** Jhon Harold Pizarro
+
+**Project Director:** JP Engineering Framework
+
 # Road to Software Architect 2030
 
 ## Bienvenido
@@ -27,3 +41,11 @@ Ahora quiero construir un conocimiento estructurado y demostrable mediante proye
 ## Estado actual
 
 ## Próximos pasos
+
+
+Debe responder:
+
+¿Qué es el Framework?
+¿Por qué existe?
+¿Cómo está organizado?
+¿Cómo usarlo?
