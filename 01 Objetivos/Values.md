@@ -14,6 +14,28 @@
 
 ---
 
+# Values
+
+The JP Engineering Framework is guided by the following core values:
+
+- Continuous Learning
+- Engineering Excellence
+- Professionalism
+- Simplicity
+- Quality over Quantity
+- Documentation First
+- Clean Architecture
+- Continuous Improvement
+- Integrity
+- Discipline
+- Consistency
+- Knowledge Sharing
+- Long-Term Thinking
+- Practical Innovation
+- Respect for Standards
+
+---
+
 # Engineering Values
 
 Los valores del JP Engineering Framework representan los principios personales y profesionales que guían el desarrollo de software, la toma de decisiones y la evolución como ingeniero.

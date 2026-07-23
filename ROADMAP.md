@@ -17,6 +17,41 @@ Este documento representa una visión general del camino del framework, evitando
 
 ---
 
+---
+
+# Roadmap
+
+The JP Engineering Framework will evolve incrementally through stable versions.
+
+Each version must deliver a complete and usable milestone before introducing new capabilities.
+
+The roadmap is organized around progressive engineering maturity, prioritizing completion over expansion.
+
+## Version 1.0.0 — Foundation
+
+Objective:
+
+Establish the engineering foundation of the Framework.
+
+Main Deliverables:
+
+- Framework structure
+- Core documentation
+- Engineering Constitution
+- Product Backlog
+- Development Roadmap
+- Project Governance
+- Versioning strategy
+- Initial Git repository
+
+## Future Versions
+
+Future versions will be planned only after the successful completion and approval of Version 1.0.0.
+
+No future version may compromise the stability or completion of the current milestone.
+
+---
+
 # Vision
 
 Construir un ecosistema de ingeniería de software basado en:

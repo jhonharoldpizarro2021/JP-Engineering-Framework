@@ -123,3 +123,29 @@ Esta versión establece las bases documentales, arquitectónicas y metodológica
 # Futuro
 
 El JP Engineering Framework evolucionará como un sistema vivo de ingeniería, donde cada proyecto, error, aprendizaje y decisión contribuya a la construcción de conocimiento profesional.
+
+---
+
+## 6. La Fuente de Verdad gobierna el Framework
+
+Toda decisión, documentación o implementación deberá basarse en una única Fuente de Verdad previamente identificada y validada.
+
+No se realizarán cambios por suposición ni se generará documentación sin verificar la fuente oficial correspondiente.
+
+---
+
+## Framework Evolution
+
+Every new rule, standard, document, process, skill, or architectural decision must follow the official Framework lifecycle.
+
+Idea → Backlog → Prioritization → Sprint → Development → Review → Approval → Official Implementation
+
+Nothing becomes part of the JP Engineering Framework without completing this lifecycle.
+
+---
+
+## Source of Truth
+
+Every task must have a single identified Source of Truth.
+
+No documentation, implementation, or decision may be created based on assumptions when an official source exists.

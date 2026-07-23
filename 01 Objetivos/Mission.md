@@ -16,6 +16,14 @@
 
 # Mission Statement
 
+# Mission
+
+To build a practical Software Engineering Framework that standardizes software development through architecture, documentation, best practices, quality, automation, and continuous improvement.
+
+The Framework aims to transform knowledge into real-world implementations, creating reusable solutions, professional standards, and production-ready projects while continuously strengthening software engineering, software architecture, and project management skills.
+
+---
+
 ## ¿Por qué quiero ser Arquitecto de Software?
 
 Quiero evolucionar hacia el rol de Arquitecto de Software porque mi objetivo no es solamente construir código, sino comprender, diseñar y dirigir la creación de soluciones completas.
