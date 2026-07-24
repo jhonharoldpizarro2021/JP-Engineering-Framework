@@ -136,17 +136,18 @@ El aprendizaje dentro del JP Engineering Framework se basa en:
 
 El primer estándar aprobado es:
 
-`standards/software-development/git-workflow/`
+[Git Workflow Standard](./standards/software-development/git-workflow/Git-Workflow-Standard.md)
 
 ## Gobierno documental
 
 Todo estándar debe incluir como mínimo:
 
-- `README.md`
-- `CHANGELOG.md`
-- `METADATA.yaml`
-- `REVIEW.md`
-- `DECISIONS.md`
+- `README.md` como portada y navegación.
+- Documento normativo con nombre explícito.
+- `CHANGELOG.md`.
+- `METADATA.yaml`.
+- `REVIEW.md`.
+- `DECISIONS.md`.
 
 ## Licencia
 

@@ -5,6 +5,8 @@
 ### Added
 
 - Primera versión oficial.
+- Documento normativo publicado como `Git-Workflow-Standard.md`.
+- `README.md` definido como portada y navegación del paquete documental.
 - 21 capítulos aprobados.
 - Branching Strategy y Branch Naming.
 - Workflow Oficial.
