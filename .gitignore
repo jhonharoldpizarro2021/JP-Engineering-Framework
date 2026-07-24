@@ -1,0 +1,24 @@
+# Sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+
+# Temporales
+*.tmp
+*.log
+*.bak
+
+# Secretos
+.env
+.env.*
+!.env.example
+
+# Dependencias o artefactos
+node_modules/
+vendor/
+dist/
+build/
+coverage/

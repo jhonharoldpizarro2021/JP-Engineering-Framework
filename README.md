@@ -9,7 +9,10 @@
 
 ---
 
-# Road to Software Architect 2030
+# Road to Software Architect 2030 - JP Engineering Framework
+Repositorio oficial para estándares, guías, plantillas y decisiones de ingeniería del **JP Engineering Framework**.
+
+---
 
 ## Bienvenido
 
@@ -83,6 +86,8 @@ Construir un framework personal de ingeniería que permita:
 - Documentar decisiones importantes.
 - Crear soluciones escalables y mantenibles.
 
+Proporcionar una arquitectura documental escalable, modular y trazable para definir prácticas de ingeniería de software, arquitectura, operaciones, gobernanza e inteligencia artificial.
+
 ---
 
 # Filosofía de aprendizaje
@@ -97,26 +102,52 @@ El aprendizaje dentro del JP Engineering Framework se basa en:
 
 ---
 
-# Organización del repositorio
+## Estructura
 
-La estructura del proyecto está organizada por áreas:
+- `standards/software-development/`: prácticas de desarrollo, revisión, calidad y seguridad.
+- `standards/architecture/`: arquitectura de software, diseño de sistemas y modelado.
+- `standards/operations/`: DevOps, despliegues, incidentes y liberaciones.
+- `standards/artificial-intelligence/`: colaboración, prompts y gobernanza de IA.
+- `standards/project-management/`: planificación y gestión de proyectos.
+- `standards/governance/`: ciclo de vida documental, riesgos y conocimiento.
+- `standards/templates/`: plantillas reutilizables para nuevos estándares.
+- `docs/`: documentación transversal del Framework.
+- `assets/`: recursos compartidos.
 
-```text
-docs/
-├── project-foundation/
-├── project-management/
-├── engineering/
-├── architecture/
-├── templates/
-└── sprints/
+## Estados documentales
 
-projects/
-├── wordpress/
-├── laravel/
-├── backend/
-└── experiments/
+- Backlog
+- Knowledge Extraction
+- Architecture
+- Draft
+- CEO Review
+- Approved
+- Published
+- Maintenance
+- Deprecated
 
-resources/
-├── guides/
-├── references/
-└── notes/
+## Niveles de cumplimiento
+
+- 🔴 **Mandatory**
+- 🟡 **Recommended**
+- 🔵 **Optional**
+
+## Primer estándar
+
+El primer estándar aprobado es:
+
+`standards/software-development/git-workflow/`
+
+## Gobierno documental
+
+Todo estándar debe incluir como mínimo:
+
+- `README.md`
+- `CHANGELOG.md`
+- `METADATA.yaml`
+- `REVIEW.md`
+- `DECISIONS.md`
+
+## Licencia
+
+La licencia definitiva del repositorio debe ser aprobada por el propietario antes de su publicación pública.

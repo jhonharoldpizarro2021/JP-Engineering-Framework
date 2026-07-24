@@ -1,0 +1,13 @@
+document_id: "JP-XX-XXX-000"
+document_name: "[Standard Name]"
+framework: "JP Engineering Framework"
+category: "[Category]"
+version: "0.1.0"
+status: "Draft"
+created_at: "YYYY-MM-DD"
+approved_at: null
+updated_at: "YYYY-MM-DD"
+author: "[Author]"
+approver: "[Approver]"
+classification: "Internal"
+language: "es"
