@@ -1,0 +1,23 @@
+# Registro de decisiones
+
+- Seguridad y secretos: exclusión obligatoria y prioritaria.
+- `.env` real: ignorado.
+- `.env.example`: versionado.
+- Dependencias instaladas: ignoradas.
+- Lockfiles: versionados.
+- Docker y Dev Containers: versionados cuando son necesarios.
+- `.vscode/`: configuración compartida versionada.
+- Código de pruebas: versionado.
+- Resultados, cobertura, reportes, videos y capturas: ignorados.
+- Backups: nunca versionados.
+- Desarrollo puede conservar datos controlados o dumps sanitizados.
+- Producción excluye datos locales, volúmenes y dumps.
+- WordPress versiona `wp-content/`, incluidos uploads.
+- Núcleo WordPress regenerable: ignorado.
+- Reglas específicas aprobadas para Laravel, Go, Node.js y PHP/Composer.
+- Documentación fuente: versionada.
+- Documentación generada: ignorada.
+- Infraestructura y CI/CD: configuración versionada, resultados ignorados.
+- Un único `.gitignore` por proyecto.
+- Cambios al `.gitignore` requieren trazabilidad.
+- Validación con `git status` y `git check-ignore`.

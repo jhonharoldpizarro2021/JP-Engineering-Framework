@@ -1,0 +1,32 @@
+# WordPress
+
+# Regenerable core
+wordpress/wp-admin/
+wordpress/wp-includes/
+wordpress/index.php
+wordpress/license.txt
+wordpress/readme.html
+wordpress/wp-*.php
+wordpress/xmlrpc.php
+
+# Keep official project content
+!wordpress/wp-content/
+!wordpress/wp-content/**
+
+# Generated content inside wp-content
+wordpress/wp-content/cache/
+wordpress/wp-content/upgrade/
+wordpress/wp-content/backups/
+wordpress/wp-content/backup*/
+wordpress/wp-content/debug.log
+wordpress/wp-content/uploads/cache/
+wordpress/wp-content/uploads/tmp/
+wordpress/wp-content/uploads/temp/
+
+# Local database data
+mariadb_data/
+mysql_data/
+
+# Keep Docker-required PHP config
+!php/
+!php/**

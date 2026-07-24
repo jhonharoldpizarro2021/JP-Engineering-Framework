@@ -1,0 +1,9 @@
+# PHP and Composer
+
+/vendor/
+composer.phar
+.phpunit.result.cache
+.phpunit.cache/
+.php-cs-fixer.cache
+phpstan-result-cache
+psalm.xml.tmp

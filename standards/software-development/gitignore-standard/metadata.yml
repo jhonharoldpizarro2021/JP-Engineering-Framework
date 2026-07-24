@@ -1,0 +1,13 @@
+id: JPEF-STD-GITIGNORE-001
+title: GitIgnore Standard
+version: 1.0.0
+language: es
+status: approved
+publication_status: pending_local_review
+compliance_level: mandatory
+owner: JP Engineering Framework
+approved_by:
+  role: CEO
+  name: Jhon Harold Pizarro
+approved_on: 2026-07-24
+sprint: 4
