@@ -1,0 +1,9 @@
+# <type>(<scope>): <description>
+#
+# Body: explain what changed and why when necessary.
+#
+# Footer examples:
+# BREAKING CHANGE: describe the incompatible change
+# Refs: #123
+# Closes: #123
+# Co-authored-by: Name <email@example.com>

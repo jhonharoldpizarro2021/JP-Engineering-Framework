@@ -1,0 +1,17 @@
+id: JPEF-STD-COMMIT-001
+title: Commit Convention Standard
+version: 1.0.0
+language: es
+status: approved
+publication_status: ready_for_integration
+compliance_level: mandatory
+owner: JP Engineering Framework
+approved_by:
+  role: CEO
+  name: Jhon Harold Pizarro
+approved_on: 2026-07-24
+sprint: 5
+source_of_truth: standards/software-development/commit-convention-standard/
+format: "<type>(<scope>): <description>"
+description_max_length: 72
+language_of_messages: en

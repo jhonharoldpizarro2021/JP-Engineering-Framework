@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "prepare": "husky",
+    "commitlint": "commitlint --edit"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "husky": "latest"
+  }
+}
