@@ -1,5 +1,5 @@
 {
-  "name": "JP Engineering Framework - Go",
+  "name": "JP Engineering Framework - Node.js",
   "dockerComposeFile": [
     "../../compose.yml",
     "../../compose.dev.yml"
@@ -12,7 +12,7 @@
       "extensions": [
         "ms-azuretools.vscode-docker",
         "EditorConfig.EditorConfig",
-        "golang.go"
+        "dbaeumer.vscode-eslint"
       ]
     }
   }

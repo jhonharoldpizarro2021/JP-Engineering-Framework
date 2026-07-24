@@ -2,7 +2,11 @@
 
 ## Objetivo
 
-Registrar los archivos creados para materializar el Docker Development Standard y facilitar su integración al repositorio.
+Registrar los archivos de Docker Development Standard v1.1.0 y facilitar su integración.
+
+## Ruta oficial
+
+`standards/software-development/docker-development/`
 
 ## Archivos normativos
 
@@ -14,47 +18,48 @@ Registrar los archivos creados para materializar el Docker Development Standard 
 ## Archivos de soporte
 
 - `VALIDATION-CHECKLIST.md`
+- `UPGRADE-GUIDE.md`
 - `IDEAS-BACKLOG.md`
 - `IMPLEMENTATION-MANIFEST.md`
+- `MANIFEST.sha256`
 
-## Activos reutilizables
+## Plantilla transversal
 
 - `templates/base/Dockerfile`
-- `templates/base/compose.devcontainer.yml`
+- `templates/base/compose.yml`
+- `templates/base/compose.dev.yml`
+- `templates/base/compose.prod.yml`
 - `templates/base/.devcontainer/devcontainer.json`
 - `templates/base/.dockerignore`
 - `templates/base/.env.example`
+- `templates/base/Makefile`
+- `templates/base/scripts/install.sh`
+- `templates/base/scripts/init.sh`
+- `templates/base/scripts/migrate.sh`
+- `templates/base/scripts/start.sh`
+- `templates/base/scripts/test.sh`
 
 ## Ejemplos tecnológicos
 
+- `examples/README.md`
 - `examples/wordpress/.devcontainer/devcontainer.json`
 - `examples/laravel/.devcontainer/devcontainer.json`
 - `examples/go/.devcontainer/devcontainer.json`
+- `examples/node/.devcontainer/devcontainer.json`
+- `examples/php/.devcontainer/devcontainer.json`
 
-## Destino sugerido
+## Integración
 
-`standards/docker-development-standard/`
+1. Realizar copia de seguridad local de la carpeta vigente.
+2. Sustituir el contenido de `docker-development/` por el paquete v1.1.0.
+3. Eliminar `templates/base/compose.devcontainer.yml`, porque fue reemplazado.
+4. Confirmar que no quede una carpeta adicional `docker-development-standard-v1.1.0` dentro de la ruta oficial.
+5. Revisar `STANDARD.md`, plantillas y ejemplos.
+6. Ejecutar `VALIDATION-CHECKLIST.md`.
+7. Revisar `git status` y el diff.
+8. Crear un commit exclusivo para la actualización.
+9. Hacer push conforme al Git Workflow Standard.
 
-## Pasos de integración
+## Archivos globales
 
-1. Copiar la carpeta completa al repositorio.
-2. Ajustar el destino según la estructura real del Framework.
-3. Revisar nombres, rutas y extensiones.
-4. Ejecutar la validación local.
-5. Registrar la aprobación.
-6. Integrar a la rama de trabajo correspondiente.
-7. Actualizar el índice general de estándares.
-8. Actualizar el `CHANGELOG` global del Framework.
-9. Publicar conforme al Git Workflow Standard.
-
-## Archivos globales que probablemente deberán modificarse
-
-Estos cambios no se incluyen porque dependen de la estructura vigente del repositorio:
-
-- README principal del Framework.
-- Índice general de estándares.
-- CHANGELOG global.
-- Roadmap o backlog del Sprint 4.
-- Documentación de arquitectura y pilares de escalabilidad.
-
-Dichos archivos deberán actualizarse durante la integración, no antes de confirmar sus rutas reales.
+No se incluyen modificaciones al README principal, índice general, changelog global ni acta del Sprint 4. Esos cambios se gestionarán en sus tareas correspondientes.

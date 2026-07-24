@@ -1,21 +1,19 @@
 # Ideas Backlog
 
-Estas ideas se preservan para futuras iteraciones y no bloquean la publicación de la versión 1.0.0.
+Estas ideas se preservan para futuras iteraciones y no bloquean la publicación de la versión 1.1.0.
 
 ## Pendientes
 
-1. Crear Starter Kits completos para WordPress, Laravel y Go.
+1. Crear Starter Kits completos para WordPress, Laravel, Go, Node.js y PHP.
 2. Añadir validación automática del nombre del contenedor.
 3. Crear un script para comprobar que VS Code está conectado al contenedor.
-4. Incorporar una prueba de sincronización automática.
-5. Añadir una plantilla para Node.js.
-6. Documentar integración con WSL 2.
-7. Crear una guía de solución de problemas de Docker Desktop.
-8. Añadir reglas para puertos y prevención de colisiones.
-9. Definir una convención oficial para nombres de redes y volúmenes.
-10. Integrar controles en CI para validar archivos Docker.
-11. Añadir ejemplos de depuración por tecnología.
-12. Crear una matriz de extensiones recomendadas por lenguaje.
-13. Definir políticas para imágenes base y actualización de versiones.
-14. Crear un estándar complementario para producción.
-15. Incorporar este principio al documento oficial de pilares de escalabilidad.
+4. Incorporar una prueba automática de sincronización.
+5. Documentar integración avanzada con WSL 2.
+6. Crear una guía de solución de problemas de Docker Desktop.
+7. Definir una convención oficial para nombres de redes y volúmenes.
+8. Integrar controles en CI para validar archivos Docker.
+9. Añadir ejemplos completos de depuración por tecnología.
+10. Crear una matriz de extensiones recomendadas por lenguaje.
+11. Definir una política de actualización y digest de imágenes.
+12. Incorporar el principio al documento oficial de pilares de escalabilidad.
+13. Crear un estándar operativo complementario para despliegues y orquestación de producción.

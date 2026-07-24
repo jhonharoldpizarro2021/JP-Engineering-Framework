@@ -6,8 +6,13 @@
 node_modules
 vendor
 tmp
+temp
 logs
 coverage
 dist
 build
 *.log
+*.bak
+*.backup
+.DS_Store
+Thumbs.db

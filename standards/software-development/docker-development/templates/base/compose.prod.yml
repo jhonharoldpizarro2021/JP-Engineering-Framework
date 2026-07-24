@@ -1,0 +1,18 @@
+services:
+  app:
+    container_name: ${PROJECT_NAME:-jpef-project}-prod
+    build:
+      target: production
+    environment:
+      APP_ENV: production
+      APP_START_COMMAND: ${APP_START_COMMAND:?APP_START_COMMAND is required for production}
+    ports:
+      - "${APP_PORT:-8080}:8080"
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL

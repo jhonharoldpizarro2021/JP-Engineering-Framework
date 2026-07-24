@@ -1,5 +1,5 @@
 {
-  "name": "JP Engineering Framework - Go",
+  "name": "JP Engineering Framework - PHP",
   "dockerComposeFile": [
     "../../compose.yml",
     "../../compose.dev.yml"
@@ -12,7 +12,8 @@
       "extensions": [
         "ms-azuretools.vscode-docker",
         "EditorConfig.EditorConfig",
-        "golang.go"
+        "bmewburn.vscode-intelephense-client",
+        "xdebug.php-debug"
       ]
     }
   }

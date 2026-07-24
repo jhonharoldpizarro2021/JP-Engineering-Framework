@@ -1,6 +1,9 @@
 {
   "name": "JP Engineering Framework - WordPress",
-  "dockerComposeFile": "../../docker-compose.yml",
+  "dockerComposeFile": [
+    "../../compose.yml",
+    "../../compose.dev.yml"
+  ],
   "service": "wordpress",
   "workspaceFolder": "/var/www/html",
   "shutdownAction": "stopCompose",

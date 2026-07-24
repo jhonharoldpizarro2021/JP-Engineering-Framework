@@ -1,0 +1,27 @@
+name: ${PROJECT_NAME:-jpef-project}
+
+services:
+  app:
+    image: ${PROJECT_NAME:-jpef-project}:${APP_IMAGE_TAG:-local}
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: ${DOCKER_TARGET:-development}
+      args:
+        USERNAME: ${CONTAINER_USER:-vscode}
+        USER_UID: ${CONTAINER_UID:-1000}
+        USER_GID: ${CONTAINER_GID:-1000}
+    working_dir: /workspace
+    environment:
+      APP_ENV: ${APP_ENV:-development}
+    networks:
+      - app-network
+    healthcheck:
+      test: ["CMD-SHELL", "test -d /workspace || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+networks:
+  app-network:
+    name: ${PROJECT_NAME:-jpef-project}-network

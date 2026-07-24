@@ -1,52 +1,73 @@
 # Docker Development Standard
 
-Paquete de implementación para revisión local del estándar de entornos de desarrollo Docker del **JP Engineering Framework**.
+Paquete de actualización del **Docker Development Standard v1.1.0** del **JP Engineering Framework**.
 
 ## Estado
 
 - Estándar funcional: **aprobado**
 - Nivel de cumplimiento: **obligatorio**
-- Implementación documental: **lista para revisión**
-- Publicación en el repositorio: **pendiente de aprobación final del paquete**
+- Extracción de conocimiento: **cerrada**
+- Materialización documental: **completada**
+- Integración al repositorio: **pendiente**
 
 ## Objetivo
 
-Garantizar que todos los proyectos del Framework dispongan de un entorno de desarrollo:
+Garantizar que todos los proyectos del Framework dispongan de entornos Docker:
 
-- aislado;
-- reproducible;
-- identificable;
-- portable;
-- consistente;
-- independiente de instalaciones globales en Windows.
+- aislados;
+- reproducibles;
+- identificables;
+- portables;
+- consistentes;
+- independientes de instalaciones globales en Windows;
+- claramente separados entre desarrollo y producción.
+
+## Cambio principal de la versión 1.1.0
+
+La separación entre desarrollo y producción deja de ser recomendada y pasa a ser obligatoria.
+
+La configuración Docker deberá incluir una capa transversal independiente del lenguaje y una capa tecnológica específica. Docker deberá crear los runtimes, dependencias, servicios, extensiones, configuraciones, permisos y recursos necesarios para ejecutar el proyecto de forma equivalente en cualquier máquina compatible.
+
+## Estructura transversal mínima
+
+- `compose.yml`
+- `compose.dev.yml`
+- `compose.prod.yml`
+- `Dockerfile` multietapa, o `Dockerfile.dev` y `Dockerfile.prod`
+- `.env.example`
+- `.dockerignore`
+- `.devcontainer/`
+- `docker/`, cuando aplique
+- `scripts/`
+- `Makefile`
+
+## Comandos mínimos
+
+- `make build`
+- `make up`
+- `make down`
+- `make restart`
+- `make logs`
+- `make shell`
+- `make install`
+- `make test`
 
 ## Contenido del paquete
 
-- `STANDARD.md`: definición normativa del estándar.
-- `README.md`: guía general del paquete.
-- `CHANGELOG.md`: historial de cambios.
-- `metadata.yml`: metadatos del estándar.
-- `IMPLEMENTATION-MANIFEST.md`: archivos creados y destino recomendado.
-- `VALIDATION-CHECKLIST.md`: criterios para revisar una implementación.
-- `IDEAS-BACKLOG.md`: mejoras futuras que no forman parte de esta versión.
-- `templates/base/`: plantilla reutilizable para nuevos proyectos.
-- `examples/`: ejemplos de configuración para WordPress, Laravel y Go.
+- `STANDARD.md`
+- `README.md`
+- `CHANGELOG.md`
+- `metadata.yml`
+- `IMPLEMENTATION-MANIFEST.md`
+- `VALIDATION-CHECKLIST.md`
+- `UPGRADE-GUIDE.md`
+- `IDEAS-BACKLOG.md`
+- `templates/base/`
+- `examples/`
+- `MANIFEST.sha256`
 
-## Regla principal
+## Ruta oficial
 
-Todo proyecto deberá tener un contenedor de desarrollo con un nombre explícito, estable y relacionado con el proyecto. Al abrir la carpeta raíz en Visual Studio Code, el editor deberá conectarse al contenedor correspondiente, el cual deberá estar activo e identificable en Docker Desktop.
+`standards/software-development/docker-development/`
 
-## Revisión recomendada
-
-1. Revisar `STANDARD.md`.
-2. Revisar la convención de nombres.
-3. Validar las plantillas.
-4. Confirmar que las extensiones propuestas son adecuadas.
-5. Ajustar las rutas de integración según la estructura real del repositorio.
-6. Aprobar el paquete antes de pasarlo al desarrollador.
-
-## Destino sugerido
-
-`standards/docker-development-standard/`
-
-El destino exacto debe ajustarse a la estructura vigente del repositorio antes de integrar.
+El contenido del paquete debe reemplazar la versión anterior conservando la misma carpeta del estándar.

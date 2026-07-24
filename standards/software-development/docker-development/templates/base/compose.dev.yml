@@ -1,0 +1,14 @@
+services:
+  app:
+    container_name: ${PROJECT_NAME:-jpef-project}-dev
+    build:
+      target: development
+    environment:
+      APP_ENV: development
+    volumes:
+      - .:/workspace
+    ports:
+      - "${APP_PORT:-8080}:8080"
+    stdin_open: true
+    tty: true
+    command: sleep infinity

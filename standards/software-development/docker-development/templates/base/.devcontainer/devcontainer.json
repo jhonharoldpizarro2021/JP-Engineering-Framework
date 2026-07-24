@@ -1,7 +1,10 @@
 {
   "name": "JP Engineering Framework - Project",
-  "dockerComposeFile": "../compose.devcontainer.yml",
-  "service": "workspace",
+  "dockerComposeFile": [
+    "../compose.yml",
+    "../compose.dev.yml"
+  ],
+  "service": "app",
   "workspaceFolder": "/workspace",
   "shutdownAction": "stopCompose",
   "customizations": {
@@ -12,5 +15,6 @@
       ]
     }
   },
+  "postCreateCommand": "sh ./scripts/install.sh && sh ./scripts/init.sh",
   "remoteUser": "vscode"
 }
