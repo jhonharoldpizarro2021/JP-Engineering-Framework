@@ -1,0 +1,44 @@
+name: Branch name validation
+
+on:
+  push:
+    branches:
+      - "**"
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-branch-name:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Resolve branch name
+        id: branch
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            echo "name=${{ github.head_ref }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "name=${{ github.ref_name }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Validate branch name
+        shell: bash
+        env:
+          BRANCH_NAME: ${{ steps.branch.outputs.name }}
+        run: |
+          pattern='^(main|release/v[0-9]+\.[0-9]+\.[0-9]+|(?:feature|fix|hotfix|docs|refactor|test|build|ci|chore|security)/(?:[0-9]+-)?[a-z0-9]+(?:-[a-z0-9]+)*)$'
+
+          if [ "${#BRANCH_NAME}" -gt 80 ]; then
+            echo "Branch name exceeds 80 characters: ${BRANCH_NAME}"
+            exit 1
+          fi
+
+          if ! printf '%s' "${BRANCH_NAME}" | grep -Eq "${pattern}"; then
+            echo "Invalid branch name: ${BRANCH_NAME}"
+            exit 1
+          fi
+
+          echo "Valid branch name: ${BRANCH_NAME}"

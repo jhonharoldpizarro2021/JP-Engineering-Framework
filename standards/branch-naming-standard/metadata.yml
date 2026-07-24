@@ -1,0 +1,21 @@
+id: JPEF-STD-BRANCH-NAMING-001
+title: Branch Naming Standard
+version: 1.0.0
+language: es
+status: review_candidate
+publication_status: pending_local_approval
+compliance_level: mandatory
+owner: JP Engineering Framework
+approved_rules:
+  - format
+  - writing_rules
+  - official_prefixes
+  - protected_branches
+  - branch_creation
+  - ticket_relationship
+  - release_branches
+  - hotfix_branches
+  - lifecycle_and_deletion
+sprint: 5
+source_of_truth: standards/software-development/branch-naming-standard/
+proposed_commit: "feat(standards): add Branch Naming Standard v1.0.0"

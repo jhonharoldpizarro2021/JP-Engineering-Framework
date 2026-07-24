@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+set -eu
+
+script_path="./scripts/validate-branch-name.sh"
+
+if [ ! -x "${script_path}" ]; then
+  echo "Branch name validator not found or not executable: ${script_path}" >&2
+  exit 1
+fi
+
+"${script_path}"
