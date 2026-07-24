@@ -1,0 +1,16 @@
+{
+  "name": "JP Engineering Framework - Project",
+  "dockerComposeFile": "../compose.devcontainer.yml",
+  "service": "workspace",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopCompose",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "EditorConfig.EditorConfig"
+      ]
+    }
+  },
+  "remoteUser": "vscode"
+}

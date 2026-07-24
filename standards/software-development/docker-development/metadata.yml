@@ -1,0 +1,38 @@
+id: JPEF-STD-DOCKER-DEV-001
+title: Docker Development Standard
+version: 1.0.0
+language: es
+status: approved
+publication_status: pending_package_review
+compliance_level: mandatory
+owner: JP Engineering Framework
+approved_by:
+  role: CEO
+  name: Jhon Harold Pizarro
+approved_on: 2026-07-24
+lifecycle:
+  current_state: Approved
+  next_state: Published
+pillars:
+  - scalability
+  - reproducibility
+  - isolation
+  - portability
+  - consistency
+scope:
+  - WordPress
+  - Laravel
+  - PHP
+  - Go
+  - Node.js
+  - future technologies
+artifacts:
+  - STANDARD.md
+  - README.md
+  - CHANGELOG.md
+  - metadata.yml
+  - IMPLEMENTATION-MANIFEST.md
+  - VALIDATION-CHECKLIST.md
+  - IDEAS-BACKLOG.md
+  - templates
+  - examples

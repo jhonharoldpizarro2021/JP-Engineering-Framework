@@ -1,0 +1,12 @@
+name: jpef-project
+
+services:
+  workspace:
+    container_name: jpef-project-dev
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    command: sleep infinity
