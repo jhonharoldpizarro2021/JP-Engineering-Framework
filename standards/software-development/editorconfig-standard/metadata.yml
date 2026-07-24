@@ -1,0 +1,15 @@
+id: JPEF-STD-EDITORCONFIG-001
+title: EditorConfig Standard
+version: 1.0.0
+language: es
+status: approved
+publication_status: ready_for_integration
+compliance_level: mandatory
+owner: JP Engineering Framework
+approved_by:
+  role: CEO
+  name: Jhon Harold Pizarro
+approved_on: 2026-07-24
+sprint: 4
+source_of_truth: standards/software-development/editorconfig-standard/
+root_file: .editorconfig
