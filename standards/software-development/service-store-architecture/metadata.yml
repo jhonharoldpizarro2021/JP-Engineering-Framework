@@ -1,0 +1,43 @@
+id: JPEF-SERVICE-STORE-ARCH-001
+title: Service Store Architecture
+version: 1.0.0
+language: es
+status: review_candidate
+publication_status: pending_local_approval
+owner: JP Engineering Framework
+source_document: Proyecto - Desarrollo Laravel
+product_type: professional_services_store
+backend:
+  php: "8.2"
+  laravel: "11"
+  bagisto: "2.x"
+frontend:
+  vue: "3"
+  inertia: required
+  vite: required
+  tailwind: required
+  pinia: required
+database: mysql
+docker_required: true
+architecture: modular_monolith
+customization_strategy: bagisto_package_without_core_modification
+mobile_api:
+  passport: deferred
+  fcm: deferred
+proposed_commit: "feat(laravel): add service store architecture baseline v1.0.0"
+secondary_source:
+  file: proyecto_tps.zip
+  scope: docker_patterns_only
+  recovered:
+    - devcontainer_compose_connection
+    - app_workspace_var_www_html
+    - named_dependency_and_data_volumes
+    - optional_database_admin_tool
+    - controlled_entrypoint_initialization
+  rejected:
+    - secrets
+    - machine_specific_container_ids
+    - host_network
+    - root_remote_user
+    - obsolete_runtime_versions
+    - automatic_error_ignoring_migrations
