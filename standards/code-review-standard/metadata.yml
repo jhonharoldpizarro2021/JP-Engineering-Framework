@@ -1,0 +1,15 @@
+id: JPEF-STD-CODE-REVIEW-001
+title: Code Review Standard
+version: 1.0.0
+language: es
+status: review_candidate
+publication_status: pending_local_approval
+compliance_level: mandatory
+owner: JP Engineering Framework
+sprint: 5
+source_of_truth: standards/software-development/code-review-standard/
+proposed_commit: "feat(standards): add Code Review Standard v1.0.0"
+related_standards:
+  - Pull Request Standard
+  - Commit Convention Standard
+  - Branch Naming Standard

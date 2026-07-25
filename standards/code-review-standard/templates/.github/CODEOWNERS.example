@@ -1,0 +1,17 @@
+# Replace placeholders with real GitHub users or teams.
+
+# Global fallback
+* @organization/engineering
+
+# Standards
+/standards/ @organization/architecture
+
+# CI and GitHub configuration
+/.github/ @organization/devops
+
+# Security-sensitive areas
+/security/ @organization/security
+/auth/ @organization/security
+
+# Database migrations
+/**/migrations/ @organization/backend
