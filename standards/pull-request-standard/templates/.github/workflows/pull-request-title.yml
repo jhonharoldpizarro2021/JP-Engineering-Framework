@@ -1,0 +1,35 @@
+name: Pull Request title validation
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-title:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Validate title
+        shell: bash
+        env:
+          PR_TITLE: ${{ github.event.pull_request.title }}
+        run: |
+          pattern='^(feat|fix|docs|refactor|test|build|ci|chore|perf|style|revert|security)\([a-z0-9]+(?:-[a-z0-9]+)*\): [a-z].{0,71}$'
+
+          if [ "${#PR_TITLE}" -gt 72 ]; then
+            echo "Pull Request title exceeds 72 characters."
+            exit 1
+          fi
+
+          if printf '%s' "${PR_TITLE}" | grep -q '\.$'; then
+            echo "Pull Request title must not end with a period."
+            exit 1
+          fi
+
+          if ! printf '%s' "${PR_TITLE}" | grep -Eq "${pattern}"; then
+            echo "Invalid Pull Request title: ${PR_TITLE}"
+            exit 1
+          fi

@@ -1,0 +1,16 @@
+id: JPEF-STD-PULL-REQUEST-001
+title: Pull Request Standard
+version: 1.0.0
+language: es
+status: review_candidate
+publication_status: pending_local_approval
+compliance_level: mandatory
+owner: JP Engineering Framework
+sprint: 5
+source_of_truth: standards/software-development/pull-request-standard/
+proposed_commit: "feat(standards): add Pull Request Standard v1.0.0"
+related_standards:
+  - Git Workflow Standard
+  - Commit Convention Standard
+  - Branch Naming Standard
+  - Code Review Standard
